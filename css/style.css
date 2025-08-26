@@ -702,3 +702,57 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+.certificates {
+  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)); /* xanh ngọc nhạt */
+  padding: 4rem 0;
+}
+
+.certificates__content {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.certificate-card {
+  flex: 1 1 300px;
+  max-width: 350px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  padding: 1rem;
+  transition: transform 0.3s ease;
+  color: #222; /* chữ bên trong card màu đen đậm */
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+}
+
+.certificate-card__img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.certificate-card__title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0.5rem;
+  color: #003366; /* xanh đậm để dễ đọc */
+  letter-spacing: 0.3px;
+}
+
+.certificates h2,
+.certificates .heading-sec__sub {
+  color: #fff; /* tiêu đề section và subtitle chữ trắng để nổi trên nền xanh */
+}
+
+.contact_info {
+  font-size: 15px;
+  color: #eee;
+  margin-bottom: 1rem;
+}
